@@ -2,7 +2,7 @@
 
 
 
-## Everyone loves to play games especially PC Games which are fun, fabulous and fanstastic. We Alcazar presents a User friendly and dynamic website which solves the trouble to search and play games.
+## Everyone loves to play games especially PC Games which are fun, fabulous and fanstastic. We Alcazar present to you a User friendly and dynamic website which solves the trouble to search and play games.
 
 https://user-images.githubusercontent.com/118302022/220063928-e09d89a2-d989-441b-ae3e-d05bc0a5041e.mp4
 
