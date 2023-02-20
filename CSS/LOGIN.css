@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+
+.body{
+    position: fixed; 
+	padding:0;
+	margin:0;
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(../PICS/blood%20borne.png);
+	background-size: cover;
+	-webkit-filter: blur(0px)
+	
+}
+.nav a:hover{
+	color:#090;
+	
+	}
+	.nav ul{
+		padding:0;
+		margin:0;
+		margin-top:20px;
+		vertical-align:middle;
+		list-style:none;
+	
+	}
+.nav ul li a{
+		margin-left:10px;
+		color:#000;
+		font-weight:600;;
+		display:block;
+		text-decoration:none;
+		font-family:Akashi;
+		font-size:23px;
+		
+		transition:0.17s;
+	}
+
+.nav{
+	
+
+	z-index:1;
+	background-color:#FFF;
+	position:fixed;
+	margin-top:-20px;
+	margin-left:-10px;
+	height:60px;
+	width:102%;
+	opacity:0.7;
+	border-bottom:1px solid #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+	
+
+	
+	}
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.header div{
+	position:relative;
+	top:50px;
+	float: left;
+	color: #FFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #F29E20 ;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(50% - 175px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #FFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.nav ul li{
+	float:left;
+	
+	}
+.nav ul li a span{
+		color:#F00;
+	}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}

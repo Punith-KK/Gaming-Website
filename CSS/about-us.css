@@ -1,0 +1,31 @@
+
+
+#about-us{display:block; width:100%; line-height:1.6em;}
+#about-us h2{margin-bottom:40px; padding-bottom:20px; border-bottom:1px solid #CCCCCC;}
+
+#about-us #statements{margin-bottom:50px;}
+#about-us #statements p{margin:20px 0 0 0; padding:0;}
+#about-us #statements p:first-child{margin-top:0;}
+
+#about-us #team{margin-bottom:0;}
+#about-us #team ul{margin:0; padding:0; list-style:none;}
+#about-us #team ul li{position:relative; margin-bottom:50px;}
+#about-us #team ul li div{}
+#about-us #team ul li div:first-child{}
+#about-us #team ul li div img{padding:4px; border:1px solid #CCCCCC;}
+#about-us #team ul li p{margin:15px 0 0 0; padding:0;}
+#about-us #team ul li p:first-child{}
+#about-us #team ul li .team_name{font-weight:bold;}
+#about-us #team ul li .team_title{margin:0; font-size:11px; line-height:normal;}
+#about-us #team ul li .team_description{}
+#about-us #team ul ul{position:absolute; top:0; right:0;}
+#about-us #team ul ul li{display:inline; margin:0 0 0 6px; background:none;}
+#about-us #team ul ul li:first-child{margin-left:0;}
+#about-us #team ul ul li a{}
+#about-us #team ul ul li a img{padding:0; border:none;}
+
+#about-us #client_logos{margin:0;}
+#about-us #client_logos ul{margin:0; padding:0; list-style:none;}
+#about-us #client_logos ul li{}
+#about-us #client_logos ul li:first-child{margin-left:0;}
+#about-us #client_logos ul li img{}

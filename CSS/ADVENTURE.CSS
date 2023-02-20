@@ -1,0 +1,326 @@
+@font-face{
+   font-family:CRYSISB; 
+   src: url(../FONTS/CRYSISB.ttf);
+
+ }
+
+@font-face{
+   font-family:"battlefieldv4"; 
+   src: url(../FONTS/battlefieldv4.ttf);
+
+ }
+ 
+ @font-face
+{
+ font-family:Akashi;
+ src: url(../FONTS/Akashi.ttf)
+}
+body{
+		margin:0;
+	}
+.container{
+		
+		height:100%;
+		/*background-color:#0C0;*/
+	
+	}
+.nav{
+	
+
+	z-index:1;
+	background-color:#FFF;
+	position:fixed;
+	height:60px;
+	width:100%;
+	opacity:0.7;
+	border-bottom:1px solid #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+	
+
+	
+	}
+	.nav a:hover{
+	color:#090;
+	
+	}
+.nav ul{
+		padding:0;
+		margin:0;
+		margin-top:20px;
+		vertical-align:middle;
+		list-style:none;
+	
+	}
+.nav ul li a{
+		margin-left:10px;
+		color:#000;
+		font-weight:600;;
+		display:block;
+		text-decoration:none;
+		font-family:Akashi;
+		font-size:23px;
+		
+		transition:0.17s;
+	}
+.nav ul li{
+	float:left;
+	
+}
+.nav ul li a span{
+		color:#F00;
+	}
+.verNav{
+	overflow:hidden;
+	z-index:1;
+	position:fixed;
+	z-index:1;
+	top:61px;
+	width:15%;
+	background-color:#CCC;
+	height:100%;
+	 box-shadow: 10px 5px 20px #888888;
+	}
+.verNav ul{
+		list-style:none;
+		margin:0;
+		
+		
+		}
+.price{
+	text-align:left;
+	position: absolute;
+	overflow:hidden;
+	height:20%;
+	bottom:0px;
+	width:100%;
+	font-family:"battlefieldv4";
+	font-size:24px;
+	}
+
+
+
+		
+.verNav ul li a{
+	margin-left: 0;
+	color: #000;
+	padding-left:5px;
+	display: block;
+	text-decoration: none;
+	font-family: Akashi;
+	font-size: 23px;
+	transition: 0.17s;
+	}
+.verNav ul li {
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	transition:0.17s;
+	}
+.verNav ul li:hover{
+		background:#666;
+	}
+.verNav .sectionOne{
+	font-family:CRYSISB;
+	font-size:24px;
+	font-weight:700;
+	background-color:#F00;
+	opacity:0.9;
+	
+	}
+.content{
+		position:absolute;
+		top:80px;
+		width:85%;
+		height:100%;
+		
+		left:15%;
+	
+	}
+.box{
+	display:                 flex;
+  	display:                 -webkit-flex; 
+ 	 flex-wrap:               wrap;
+  	-webkit-flex-wrap:       wrap;         
+  	justify-content:         center;
+  	-webkit-justify-content: center;
+	position:relative;
+	/*background:#C0F;*/
+	height:80%;
+	
+	}
+.card{	
+		position:relative;
+		
+		margin:30px;
+		
+		height:200px;
+		width:320px;
+		float:left;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		transition:0.5s;
+	}
+.box1{
+	
+	background-image:url(../PICS/GCARDS/ad1.png);
+	
+	}
+.box2{
+	
+	background-image:url(../PICS/GCARDS/ad2.png);
+	
+	}
+.box3{
+	
+	background-image:url(../PICS/GCARDS/ad3.png);
+	
+	}
+.box4{
+	
+	background-image:url(../PICS/GCARDS/ad4.png);
+	
+	}
+.box5{
+
+	background-image:url(../PICS/GCARDS/ad5.png);
+	
+	}
+	/*
+.box6{
+
+	background-image:url(../PICS/GCARDS/aca4.png);
+
+	
+	}
+.box7{
+
+	background-image:url(../PICS/GCARDS/ad1.png);
+	
+	}
+.box8{
+
+	background-image:url(../PICS/GCARDS/ad2.png);
+	
+}
+.box9{
+	
+	background-image:url(../PICS/GCARDS/aca3.png);
+	
+	}
+.box10{
+	
+	background-image:url(../PICS/GCARDS/shooting1.png);
+	
+	}
+.box11{
+	
+	background-image:url(../PICS/GCARDS/shooting2.png);
+	
+	}
+.box12{
+	
+	background-image:url(../PICS/GCARDS/ad4.png);
+	
+	}
+.box13{
+
+	background-image:url(../PICS/GCARDS/a3.png);
+	
+	}
+.box14{
+
+	background-image:url(../PICS/GCARDS/a4.png);
+
+	
+	}
+.box15{
+
+	background-image:url(../PICS/GCARDS/a5.png);
+	
+	}
+.box16{
+
+	background-image:url(../PICS/GCARDS/shooting3.png);
+	
+}
+.box17{
+	
+	background-image:url(../PICS/GCARDS/stat2.png)
+	
+	}
+.box18{
+
+	background-image:url(../PICS/GCARDS/shooting4.png);
+	
+	}
+.box19{
+
+	background-image:url(../PICS/GCARDS/shooting5.png);
+
+	
+	}
+.box20{
+
+	background-image:url(../PICS/GCARDS/shooting6.png);
+	
+	}
+.box21{
+
+	background-image:url(../PICS/GCARDS/shooting7.png);
+	
+}
+.box22{
+
+	background-image:url(../PICS/GCARDS/shooting8.png);
+	
+}
+.box23{
+
+	background-image:url(../PICS/GCARDS/shooting9.png);
+	
+}
+.box24{
+
+	background-image:url(../PICS/GCARDS/shooting10.png);
+	
+}
+.box25{
+
+	background-image:url(../PICS/GCARDS/stat3.png);
+	
+}
+*/
+
+.card{
+	background-size:100% 80%;
+	background-repeat: no-repeat;
+	}
+
+
+.genere{
+	height:70px;
+	font-family:"battlefieldv4";
+	font-size:24px;
+	text-align:center;
+	}
+.price input{
+	height:100%;
+	float:right;
+	background-color:#FF0;
+	border: none;
+    color: #000;
+	font-family:"battlefieldv4";
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	}
+.card:hover{
+	transform:scale(1.1);	
+	}
+.price input:hover{
+		cursor:pointer;
+		color: #00F;
+		
+	}

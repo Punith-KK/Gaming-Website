@@ -1,0 +1,248 @@
+
+@font-face
+{
+ font-family:CRYSISB;
+ src: url(../FONTS/CRYSISB.ttf);
+
+}
+@font-face
+{
+ font-family:Akashi;
+ src: url(../FONTS/Akashi.ttf)
+}
+body{
+		margin:0;
+	}
+.footer{
+	position:relative;
+	height:100px;
+	top:200px;
+	background:#333;
+	}
+.nav{
+	
+
+	z-index:1;
+	background-color:#FFF;
+	position:fixed;
+	height:60px;
+	width:100%;
+	opacity:0.7;
+	border-bottom:1px solid #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+	
+
+	
+	}
+.container{
+		
+		height:auto;
+		
+		
+	}
+	.logos{
+		
+			position:relative;
+			float:right;
+			border:1px solid #096;
+			background:#093;
+			width:100%;
+			height:30px;
+		}
+.footer div{
+	overflow:hidden;
+	position:relative;
+	top:25%;
+	float: left;
+	color: #FFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.footer div span{
+	color: #F29E20 ;
+}
+
+
+	.nav a:hover{
+	color:#090;
+	
+	}
+.nav ul{
+		padding:0;
+		margin:0;
+		margin-top:20px;
+		vertical-align:middle;
+		list-style:none;
+	
+	}
+.nav ul li a{
+		margin-left:10px;
+		color:#000;
+		font-weight:600;;
+		display:block;
+		text-decoration:none;
+		font-family:Akashi;
+		font-size:23px;
+		
+		transition:0.17s;
+	}
+	
+.box{
+	overflow:hidden;
+	position:relative;
+	top:100px;
+	width:100%;
+
+	
+	height:700px;
+	
+	}
+.slider{
+	position:relative;
+	
+	width:400%;
+	
+	height:200%;
+	
+	animation-name:slide;
+	
+	animation-duration:11s;
+	animation-timing-function: cubic-bezier(.21,.66,.23,.2);
+	animation-iteration-count:infinite;
+	}
+.picture{
+	
+		
+		position:relative;
+		float:left;
+		width:25%;
+		background-image:url(../PICS/STARWARS.png);
+		background-size:100% 700px;
+		background-repeat: no-repeat;
+		height:700px;
+		
+		
+		
+	}
+.pictureTwo{
+		float:left;
+		position:relative;
+		width:25%;
+		background-image:url(../PICS/ANTHEM.png);
+		background-size:100% 700px;
+		background-repeat: no-repeat;
+		height:700px;
+		
+		
+	}
+.pictureThree{
+		
+		position:relative;
+		width:25%;
+		float:left;
+		background-image:url(../PICS/dsetiny2.png);
+		background-size:100% 700px;
+		background-repeat: no-repeat;
+		height:700px;
+		
+		
+	}
+.pictureFour{
+	
+		
+		position:relative;
+		float:left;
+		width:25%;
+		background-image:url(../PICS/STARWARS.png);
+		background-size:100% 700px;
+		background-repeat: no-repeat;
+		height:700px;
+		
+		
+		
+	}
+
+	
+	.pbtn{
+		border:1px solid #CCC;
+		position:relative;
+		top:65%;
+		left:39%;
+		right:auto;
+		width:20%;
+		height:30px;
+		background-color:#C00;
+		color:#FFF;
+		font-size:24px;
+		text-align:center;
+		padding:10px;
+		transition:1s;
+		opacity:0.8;
+		
+	
+		
+		}
+		
+		
+	.obtn{
+		border:1px solid #CCC;
+		position:relative;
+		top:65%;
+		left:39%;
+		right:auto;
+		width:20%;
+		height:30px;
+		background-color:#06F;
+		color:#FFF;
+		font-size:24px;
+		text-align:center;
+		padding:10px;
+		transition:1s;
+		opacity:0.8;
+		
+		
+		
+		}
+.pbtn:hover{
+		
+		opacity:1;
+		cursor:pointer;
+	
+		
+		}
+.obtn:hover{
+		
+		opacity:1;
+		cursor:pointer;
+	
+		
+		}
+	
+.nav ul li{
+	float:left;
+	
+}
+.an{
+	background:#060;
+	}
+.an0{
+	background:#FF9900;
+
+	}
+.nav ul li a span{
+		color:#F00;
+	}
+@keyframes slide{
+	0%{left:0%;}
+	30%{left:0%;}
+	35%{left:-100%;}
+	50%{left:-100%;}
+	55%{left:-200%;}
+	80%{left:-200%;}
+	85%{left:-300%;}
+	
+	
+	}

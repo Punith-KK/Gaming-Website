@@ -1,0 +1,183 @@
+
+@font-face{
+   font-family:"battlefieldv4"; 
+   src: url(../FONTS/battlefieldv4.ttf);
+
+ }
+
+body{
+		margin:0;
+	}
+	
+.container{
+		
+		height:100%;
+		/*background-color:#0C0;*/
+	
+	}
+.nav{
+	
+
+	z-index:1;
+	background-color:#FFF;
+	position:fixed;
+	height:60px;
+	width:100%;
+	opacity:0.7;
+	border-bottom:1px solid #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+	
+
+	
+	}
+	.nav a:hover{
+	color:#090;
+	
+	}
+.nav ul{
+		padding:0;
+		margin:0;
+		margin-top:20px;
+		vertical-align:middle;
+		list-style:none;
+	
+	}
+.nav ul li a{
+		margin-left:10px;
+		color:#000;
+		font-weight:600;;
+		display:block;
+		text-decoration:none;
+		font-family:Akashi;
+		font-size:23px;
+		
+		transition:0.17s;
+	}
+.nav ul li{
+	float:left;
+	
+}
+.nav ul li a span{
+		color:#F00;
+	}
+.detail{
+	height:150px;
+	font-family:"battlefieldv4";
+	   font-size:24px;
+	   text-align:center;
+	}
+.content{
+	position:relative;
+	background-image:url(../PICS/GCARDS/hex.png);
+	top:70px;
+	height:80%;
+	/*background:#036;*/
+	}
+.box{
+	display:                 flex;
+  	display:                 -webkit-flex; 
+ 	 flex-wrap:               wrap;
+  	-webkit-flex-wrap:       wrap;         
+  	justify-content:         center;
+  	-webkit-justify-content: center;
+	position:relative;
+	/*background:#C0F;*/
+	height:80%;
+	
+	}
+.card{	
+		border-radius:50%;
+		position:relative;
+		margin:30px;
+		background:#F0F;
+		height:200px;
+		width:200px;
+		float:left;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		transition:0.5s;
+	}
+.facebook{
+	
+		background-image:url(../PICS/SOCIALMEDIAICONS/facebookRect.png);
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+	
+	}
+.google{
+	
+	background-image:url(../PICS/SOCIALMEDIAICONS/googleRect.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	
+	}
+.twitter{
+	
+	background-image:url(../PICS/SOCIALMEDIAICONS/twitterRec.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	
+	}
+.linkedin{
+	
+	background-image:url(../PICS/SOCIALMEDIAICONS/linkedinRect.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	}
+.youtube{
+	background-color:#3C0;
+	background-image:url(../PICS/SOCIALMEDIAICONS/youtubeRect.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	}
+.instagram{
+
+	background-image:url(../PICS/SOCIALMEDIAICONS/instagramRect.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	}
+.ps4{
+
+	background-image:url(../PICS/SOCIALMEDIAICONS/ps4Rect.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	}
+.xbox{
+
+	background-image:url(../PICS/SOCIALMEDIAICONS/xboxRect.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	}
+	.footer{
+	position:relative;
+	height:100px;
+	top:200px;
+	background:#333;
+	}
+.footer div{
+	
+	position:relative;
+	top:25%;
+	float: left;
+	color: #FFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.footer div span{
+	color: #F29E20 ;
+}
+.card:hover{
+	
+	transform:scale(1.2);
+	cursor:pointer;
+	
+	}
