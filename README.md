@@ -1,5 +1,6 @@
 # Gaming-Website
 
+## [Live Here](https://punith-kk.github.io/Gaming-Website/HTML/HOME.html)
 
 
 ## Everyone loves to play games especially PC Games which are fun, fabulous and fanstastic. We Alcazar present to you a User friendly and dynamic website which solves the trouble to search and play games.
