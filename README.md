@@ -1,13 +1,14 @@
 # Gaming-Website
 
 ## [Live Here](https://punith-kk.github.io/Gaming-Website/HTML/HOME.html)
-
+## [Devfolio Project Link](https://devfolio.co/projects/gaming-world-7033)
 
 ## Everyone loves to play games especially PC Games which are fun, fabulous and fanstastic. We Alcazar present to you a User friendly and dynamic website which solves the trouble to search and play games.
 
 https://user-images.githubusercontent.com/118302022/220063928-e09d89a2-d989-441b-ae3e-d05bc0a5041e.mp4
 
-
+![image](https://github.com/Punith-KK/Gaming-Website/assets/118302022/6e146a74-8c62-4ff8-8a04-61ffa45bea5f)
+### Our team got selected among Top 10 teams but unfortunately we couldn't attend Offline Event.
 
 ## Our Project solves:
 
